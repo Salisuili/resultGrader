@@ -1,0 +1,1 @@
+SELECT DISTINCT s.fname,s.mname,s.lname,g.subjectName,g.fca,g.sca,g.exams,g.term,g.session,g.class FROM grade g, student s WHERE class=2 AND (session=2018 AND term=1) AND s.admissionNo='d21csc1336' GROUP BY g.subjectName ORDER by g.subjectName asc 

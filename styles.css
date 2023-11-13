@@ -1,0 +1,70 @@
+nav{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+	img{
+		width: 100%;
+	}
+	h1{
+		font-size: 2rem !important;
+}
+h3{
+	font-size: 1.7rem !important;
+}
+.c{
+	text-transform: capitalize !important;
+}
+.round{
+	//border: 2px solid green;
+	//margin-top: 2rem;
+	margin-left: 2rem;
+	padding: .72rem;
+}
+.s-container{
+	margin-top: 5rem;
+}
+
+.logo img{
+	width: 100px;
+}
+span{
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.h5{
+	font-size: 70%;
+}
+.about,header,.affective-domain{
+	display: flex;
+	justify-content: space-around;
+}
+.rcontainer{
+	width: 80%;
+	margin: 0px auto;
+	text-transform: capitalize;
+}
+.affective-domain input{
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: 5px solid black !important;
+	display: block;
+}
+.details center .input{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.comments{
+	margin-top: .8rem;
+}
+p{
+	font-weight: 900;
+}
+table{
+	text-align: center;
+}
+.affective-domain{
+	display: flex;
+	justify-content: space-between;
+}

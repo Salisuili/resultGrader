@@ -1,0 +1,6 @@
+SELECT admissionNo,fca,sca FROM grade where admissionNo='d19csc1338' and term=1 and class=2 and session=2018
+
+SELECT g.admissionNo,g.fca,g.sca,s.fname,s.lname FROM grade g,student s where admissionNo='d19csc1338' and term=1 and class=2 and session=2018
+
+
+select and viewresult then view header detai
